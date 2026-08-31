@@ -1,0 +1,51 @@
+
+
+.body-img-container{
+    display: flex;
+    align-items: center;
+    margin-top: 8%;
+    gap: 20px;
+}
+
+.content h1{
+    margin-top: 70px;
+    font-size: 50px;
+    color: black;
+}
+
+.content1{
+    font-size: 60px;
+    color: rgb(65, 181, 213);
+}
+
+.content h2{
+    margin-top: 20px;
+    font-size: 30px;
+    color: rgb(65, 181, 213);
+}
+
+.line{
+    border: 2px solid rgb(65, 181, 213);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content2 {
+    font-size: 20px;
+}
+
+.message-btn button{
+   width: 20%;
+   height: 40px;
+   background-color:  rgb(65, 181, 213);
+   color: white;
+   border: none;
+   padding: 4px 4px;
+   border-radius: 50px;
+   margin-top: 30px;
+   align-items: center;
+    transition: all 0.3s ease;
+}
+.message-btn button:hover{
+    transform: scale(1.20);
+}
