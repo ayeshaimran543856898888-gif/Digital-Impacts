@@ -1,6 +1,9 @@
 import React from "react";
 import './Home.css'
 import pic from "../../assets/digipic1.jpg";
+import Services from "../Services/Services";
+import About from "../About/About";
+import Portfolio from "../Portfolio/Portfolio";
 const Home =() =>{
     return(
         <>
@@ -25,6 +28,12 @@ const Home =() =>{
             </div>
           </div>
         </div>
+
+
+
+        <Services/>
+        <About/>
+        <Portfolio/>
         </>
     )
 }
