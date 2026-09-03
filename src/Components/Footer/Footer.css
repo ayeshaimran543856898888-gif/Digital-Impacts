@@ -1,0 +1,102 @@
+.Footer-container{
+   width: 100%;
+   padding: 55px 25px;
+   box-sizing: border-box;
+   background-color: rgb(65,181,231);
+   margin-top: 30px;
+}
+
+.Footer-content{
+    display:flex;
+    justify-content: space-between;
+    gap:80px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.Footer-content h3{
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.Footer-content li{
+    list-style-type: none;
+    font-size: 19px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.follow-button{
+    width: 285px;
+    height:40px;
+    margin-top: 20px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight:bold;
+    border-radius: 50px;
+}
+
+.social-icons {
+    display:flex;
+    gap:20px;
+    margin-top:20px;
+}
+
+.social-icons a{
+    width: 60px;
+    height: 60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.countries{
+    display:flex;
+    justify-content: space-between;
+    text-align:center;
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+.country img{
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.country h3{
+    margin: 0 0 8px;
+    color: white;
+    font-size: 22px;
+}
+
+.country p{
+    margin: 7px 0;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.copyright{
+    border-top: 2px solid white;
+    text-align:center;
+    padding: 15px 10px;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.copyright p{
+    margin: 0;
+}
