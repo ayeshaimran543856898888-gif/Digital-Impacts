@@ -7,18 +7,22 @@ import Navbar from './Components/Navbar/Navbar'
 import Portfolio from './Components/Portfolio/Portfolio'
 
 import Services from './Components/Services/Services'
+import Contact from './Components/Contact/Contact'
+
 
 function App() {
  
   return (
     <>
-    <Navbar/> 
-    <Routes>
+    {/* <Navbar/>  */}
+    {/* <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/services" element={<Services/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/portfolio" element={<Portfolio/>}/>
-    </Routes>
+    </Routes> */}
+
+    <Contact/>
        
      {/* <Home/>  
      <Services/> 
